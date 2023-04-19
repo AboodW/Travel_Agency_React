@@ -1,0 +1,61 @@
+.car1 {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)),
+    url("../../assets/img/Rectangle 40.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 24px;
+  padding-top: 23rem;
+}
+.car2 {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)),
+    url("../../assets/img/Rectangle 41.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 24px;
+  padding-top: 23rem;
+}
+.infobanner {
+  max-width: 24.313rem;
+}
+/* .absdiv .texts {
+    align-items: center;
+  } */
+.absdiv .showflights {
+  align-items: center;
+  padding: 8px 16px;
+  gap: 4px;
+  font-size: 14px;
+  width: 144px;
+  height: 48px;
+  border-radius: 4px;
+  margin-bottom: 24px;
+}
+
+.absdiv .texts .ftitle {
+  font-family: "TradeGothic LT Extended";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 51px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.absdiv .texts .ftext {
+  font-family: "Montserrat Regular", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.showflights:hover {
+  background-color: #5ef598;
+  color: #fff;
+  font-weight: 600;
+  border: 1px solid #5ef598;
+}

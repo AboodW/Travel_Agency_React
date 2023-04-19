@@ -1,0 +1,30 @@
+.title {
+  position: relative;
+  color: #fff;
+  font-family: "TradeGothic LT Extended", sans-serif;
+}
+.title span {
+  font-weight: 700;
+  font-size: 2.813rem;
+  margin-bottom: 4px;
+}
+.title h1 {
+  font-weight: 700;
+  font-size: 5rem;
+  margin-bottom: 16px;
+}
+.title p {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+@media only screen and (max-width: 600px) {
+  .title span {
+    font-size: 0.8rem;
+  }
+  .title h1 {
+    font-size: 1.3rem;
+  }
+  .title p {
+    font-size: 0.8rem;
+  }
+}

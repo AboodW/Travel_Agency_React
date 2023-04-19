@@ -1,0 +1,37 @@
+.bookingBanner {
+  position: relative;
+  transform: translateY(-50%);
+  margin-bottom: 1%;
+  font-family: "Montserrat Regular", Fallback, sans-serif;
+}
+.bookingBanner .container {
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0px 4px 16px rgba(141, 211, 187, 0.15);
+  padding: 16px 32px;
+}
+@media only screen and (max-width: 600px) {
+  .bookingBanner {
+    transform: translateY(-20%);
+  }
+  .bookingBanner .row {
+    gap: 10px;
+  }
+  .input-wrapper {
+    margin-bottom: 15px;
+  }
+}
+.vl {
+  border: 1px solid #d7e2ee;
+  transform: rotate(90deg);
+  width: 48px;
+  height: 0px;
+}
+.bar1 {
+  cursor: pointer;
+  color: #112211;
+}
+
+.showflights {
+  background-color: #8dd3bb;
+}

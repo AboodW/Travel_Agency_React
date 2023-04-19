@@ -1,0 +1,45 @@
+header {
+  position: relative;
+  width: 96%;
+  height: 581px;
+  margin: 30px auto;
+  padding: 30px;
+  background-image: url("../../../assets/img/Rectangle31.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+header .find {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+header .find .item {
+  cursor: pointer;
+  flex-basis: 50%;
+}
+header .find .item img {
+  width: 20%;
+}
+header .find span {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Montserrat Regular", Fallback, sans-serif;
+}
+@media only screen and (max-width: 600px) {
+  header {
+    width: 90%;
+    height: 500px;
+  }
+  header .find {
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  header .find span {
+    font-size: 0.775rem;
+  }
+}

@@ -1,0 +1,19 @@
+p.plantitle {
+  font-family: "Montserrat Regular", sans-serif;
+  font-size: 2rem;
+  line-height: 39px;
+  font-weight: 600;
+  color: #000000;
+}
+
+p.plansmallparag {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 20px;
+  color: #112211;
+  opacity: 0.75;
+  font-family: "Montserrat Regular", sans-serif;
+}
+.seemorebutton {
+  font-family: "Montserrat Regular", sans-serif;
+}

@@ -5,15 +5,15 @@ export const firstBannerTexts = {
     "Get inspired! Receive travel discounts, tips and behind the scenes stories.",
   buttonText: "Subscribe",
   inputFieldPlaceHolder: "Your email address",
-  img: "../assets/emojione-v1_open-mailbox-with-lowered-flag.svg",
+  img: "../assets/img/emojione-v1_open-mailbox-with-lowered-flag.svg",
 };
 
 export const footerLogoSection = {
-  logoImg: "../assets/Logodark.svg",
-  facebook: "../assets/akar-icons_facebook-fill.svg",
-  twitter: "../assets/akar-icons_twitter-fill.svg",
-  instagram: "../assets/ant-design_instagram-filled.svg",
-  youtube: "../assets/akar-icons_youtube-fill.svg",
+  logoImg: "../assets/img/Logodark.svg",
+  facebook: "../assets/img/akar-icons_facebook-fill.svg",
+  twitter: "../assets/img/akar-icons_twitter-fill.svg",
+  instagram: "../assets/img/ant-design_instagram-filled.svg",
+  youtube: "../assets/img/akar-icons_youtube-fill.svg",
 };
 
 export const footerNavigationLinks = [

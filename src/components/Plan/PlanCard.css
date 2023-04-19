@@ -1,0 +1,22 @@
+.shadowplanimages {
+  background: #ffffff;
+  box-shadow: 0px 4px 16px rgba(17, 34, 17, 0.05);
+  border-radius: 16px;
+}
+
+.Cityname {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #112211;
+  opacity: 0.7;
+  font-family: "Montserrat Regular", sans-serif;
+}
+
+.fhr {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #112211;
+  font-family: "Montserrat Regular", sans-serif;
+}

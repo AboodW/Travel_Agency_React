@@ -1,0 +1,33 @@
+.input-wrapper {
+  position: relative;
+}
+.l-input {
+  border: 1px solid gray;
+  border-radius: 6px;
+  position: relative;
+  width: 100%;
+  line-height: 6ex;
+  padding: 10px 15px;
+  font-family: "Montserrat Regular", Fallback, sans-serif;
+}
+select.l-input {
+  height: 71.8px;
+  appearance: none;
+}
+.l-title {
+  position: absolute;
+  top: -1.8ex;
+  z-index: 1;
+  left: 2em;
+  background-color: white;
+  padding: 0 5px;
+  font-size: 14px;
+  color: #112211;
+  font-family: "Montserrat Regular", Fallback, sans-serif;
+}
+.l-icon {
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  transform: translateY(-50%);
+}
