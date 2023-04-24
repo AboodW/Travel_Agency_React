@@ -7,12 +7,12 @@ const Navbar = () => {
     <div>
       <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container-fluid">
-          <div className="find">
-            <div className="item">
+          <div className="findChoicesBanner">
+            <div className="choice">
               <img src={headerTexts[1]?.white_airplane} alt="airplane" />{" "}
               <span>Find Flight</span>
             </div>
-            <div className="item">
+            <div className="choice">
               <img src={headerTexts[1]?.white_bed} alt="bed" />
               <span>Find Flight</span>
             </div>
@@ -20,7 +20,7 @@ const Navbar = () => {
           <div className="navbar-brand">
             <img src={headerTexts[1]?.headerLogo} alt="logo" />
           </div>
-          <div className="login">
+          <div className="loginBanner">
             <button
               type="button"
               className="btn border-0 btn-outline text-white"

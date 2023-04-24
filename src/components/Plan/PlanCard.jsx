@@ -3,13 +3,13 @@ import "./PlanCard.css";
 
 const PlanCard = ({ country_city, fhr, img }) => {
   return (
-    <div class="col-lg-4 col-md-6 col-sm-12 my-3">
-      <div class="shadowplanimages p-3 d-flex align-items-center">
+    <div className="col-lg-4 col-md-6 col-sm-12 my-3">
+      <div className="shadowplanimages p-3 d-flex align-items-center">
         <img src={img} alt="Istanbul" />
 
-        <div class="plantext ms-3">
-          <p class="Cityname">{country_city}</p>
-          <p class="fhr">{fhr}</p>
+        <div className="plantext ms-3">
+          <p className="Cityname">{country_city}</p>
+          <p className="fhr">{fhr}</p>
         </div>
       </div>
     </div>

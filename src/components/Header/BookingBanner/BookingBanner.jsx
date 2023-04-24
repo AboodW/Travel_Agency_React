@@ -14,7 +14,7 @@ const BookingBanner = () => {
         <div className="bar2 row align-items-center justify-content-between mt-5">
           <div className="col-lg-3 form-floating px-1 my-2">
             <div className="input-wrapper">
-              <label className="l-title" for="pos">
+              <label className="l-title" htmlFor="pos">
                 From - To
               </label>
               <input
@@ -27,7 +27,7 @@ const BookingBanner = () => {
           </div>
           <div className="col-lg-3 form-floating px-1 my-2">
             <div className="input-wrapper">
-              <label className="l-title" for="trip">
+              <label className="l-title" htmlFor="trip">
                 Trip
               </label>
               <select className="l-input" name="trip" id="trip">
@@ -42,7 +42,7 @@ const BookingBanner = () => {
           </div>
           <div className="col-lg-3 form-floating px-1 my-2">
             <div className="input-wrapper">
-              <label className="l-title" for="date">
+              <label className="l-title" htmlFor="date">
                 Depart - Return
               </label>
               <input
@@ -55,7 +55,7 @@ const BookingBanner = () => {
           </div>
           <div className="col-lg-3 form-floating px-1 my-2">
             <div className="input-wrapper">
-              <label className="l-title" for="passenger">
+              <label className="l-title" htmlFor="passenger">
                 Passenger - Class
               </label>
               <input

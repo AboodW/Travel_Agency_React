@@ -1,0 +1,56 @@
+img.card-img-bottom {
+  margin-top: 40px;
+}
+
+.card {
+  box-shadow: 20px 15px 0px -3px rgba(141, 211, 187, 0.4);
+  border-radius: 20px;
+  padding: 24px;
+  max-width: 425px;
+}
+
+.card-body h5 {
+  font-family: "TradeGothic LT Extended", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #112211;
+}
+
+.cardshadow {
+}
+
+/* .pcard {
+  text-overflow: ellipsis;
+  white-space: 2;
+  font-family: "Montserrat Regular", sans-serif;
+} */
+
+.author .authorName {
+  font-family: "TradeGothic LT Extended", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #112211;
+}
+.author .authorPosition {
+  font-family: "Montserrat Regular", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #112211;
+  opacity: 0.6;
+}
+
+.author a {
+  margin-top: 12px;
+  font-family: "TradeGothic LT Extended", sans-serif;
+}
+
+@media screen and (max-width: 500px) {
+  .card {
+    box-shadow: 5px 5px 5px 0px rgba(141, 211, 187, 0.4);
+    overflow: hidden;
+  }
+}

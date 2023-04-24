@@ -1,7 +1,7 @@
 header {
   position: relative;
   width: 96%;
-  height: 581px;
+  height: 36.3125rem;
   margin: 30px auto;
   padding: 30px;
   background-image: url("../../../assets/img/Rectangle31.png");
@@ -11,19 +11,16 @@ header {
   overflow: hidden;
 }
 
-header .find {
+header .findChoicesBanner {
   display: flex;
   justify-content: space-between;
   gap: 30px;
 }
-header .find .item {
+header .findChoicesBanner .choice {
   cursor: pointer;
-  flex-basis: 50%;
 }
-header .find .item img {
-  width: 20%;
-}
-header .find span {
+
+header .findChoicesBanner span {
   text-decoration: none;
   color: #fff;
   font-size: 14px;
@@ -35,11 +32,11 @@ header .find span {
     width: 90%;
     height: 500px;
   }
-  header .find {
+  header .findChoicesBanner .choice {
+    display: none;
+  }
+  header .findChoicesBanner {
     gap: 10px;
     margin-bottom: 15px;
-  }
-  header .find span {
-    font-size: 0.775rem;
   }
 }

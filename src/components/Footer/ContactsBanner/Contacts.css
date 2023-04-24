@@ -1,0 +1,16 @@
+.secondbar {
+  background: #8dd3bb;
+  padding-top: 13.625rem;
+  padding-bottom: 4rem;
+}
+
+.footerlogo {
+  max-width: 7.5rem;
+}
+
+@media screen and (max-width: 875px) {
+  .secondbar {
+    padding-top: 2rem;
+    overflow: hidden;
+  }
+}

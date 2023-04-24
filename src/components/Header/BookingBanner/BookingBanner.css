@@ -7,7 +7,7 @@
 .bookingBanner .container {
   background-color: #fff;
   border-radius: 16px;
-  box-shadow: 0px 4px 16px rgba(141, 211, 187, 0.15);
+  box-shadow: 0px 4px 16px rgba(141, 211, 187, 0.55);
   padding: 16px 32px;
 }
 @media only screen and (max-width: 600px) {

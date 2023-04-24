@@ -1,3 +1,10 @@
+import mailbox from "../assets/img/emojione-v1_open-mailbox-with-lowered-flag.svg";
+import logoImg from "../assets/img/Logodark.svg";
+import facebook from "../assets/img/akar-icons_facebook-fill.svg";
+import twitter from "../assets/img/akar-icons_twitter-fill.svg";
+import instagram from "../assets/img/ant-design_instagram-filled.svg";
+import youtube from "../assets/img/akar-icons_youtube-fill.svg";
+
 export const firstBannerTexts = {
   bigTitle: "Subscribe Newsletter",
   smallTitle: "The Travel",
@@ -5,15 +12,15 @@ export const firstBannerTexts = {
     "Get inspired! Receive travel discounts, tips and behind the scenes stories.",
   buttonText: "Subscribe",
   inputFieldPlaceHolder: "Your email address",
-  img: "../assets/img/emojione-v1_open-mailbox-with-lowered-flag.svg",
+  img: mailbox,
 };
 
 export const footerLogoSection = {
-  logoImg: "../assets/img/Logodark.svg",
-  facebook: "../assets/img/akar-icons_facebook-fill.svg",
-  twitter: "../assets/img/akar-icons_twitter-fill.svg",
-  instagram: "../assets/img/ant-design_instagram-filled.svg",
-  youtube: "../assets/img/akar-icons_youtube-fill.svg",
+  logoImg: logoImg,
+  facebook: facebook,
+  twitter: twitter,
+  instagram: instagram,
+  youtube: youtube,
 };
 
 export const footerNavigationLinks = [

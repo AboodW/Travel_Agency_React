@@ -7,7 +7,7 @@
 
 @font-face {
   font-family: "Montserrat Regular";
-  src: url("./assets/webfonts/Montserrat\ Regular.ttf") format("woff2"),
-    url("./assets/webfonts/Montserrat\ Regular.ttf") format("woff"),
-    url("./assets/webfonts/Montserrat\ Regular.ttf") format("truetype");
+  src: url("./assets/webfonts/Montserrat_Regular.ttf") format("woff2"),
+    url("./assets/webfonts/Montserrat_Regular.ttf") format("woff"),
+    url("./assets/webfonts/Montserrat_Regular.ttf") format("truetype");
 }

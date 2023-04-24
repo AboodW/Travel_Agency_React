@@ -1,0 +1,12 @@
+.footerContainer {
+  position: relative;
+  margin-top: 241px;
+}
+
+@media screen and (max-width: 756px) {
+  .footerContainer {
+    margin-top: 90px;
+  }
+}
+
+/*.firstbar*/
