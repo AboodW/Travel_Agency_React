@@ -5,7 +5,7 @@ import "./ShowPlan.css";
 
 const ShowPlan = () => {
   return (
-    <div className="container p-0 mt-5 mx-auto">
+    <div className="container showCont mx-auto">
       <div className="row">
         {showPlanTexts.map((p, index) => {
           return <ShowPlanCard key={index} {...p} />;

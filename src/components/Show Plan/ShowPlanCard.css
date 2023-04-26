@@ -5,7 +5,10 @@
   background-size: cover;
   background-position: center;
   border-radius: 24px;
-  padding-top: 23rem;
+  height: 500px;
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
 .car2 {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)),
@@ -14,10 +17,14 @@
   background-size: cover;
   background-position: center;
   border-radius: 24px;
-  padding-top: 23rem;
+  height: 500px;
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
 .infobanner {
-  max-width: 24.313rem;
+  position: absolute;
+  bottom: 0;
 }
 /* .absdiv .texts {
     align-items: center;
